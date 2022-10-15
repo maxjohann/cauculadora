@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Indie+Flower&display=swap');
+
+
+#main {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 110px 70px 70px 70px 70px 70px;
+    line-height: 80px;
+
+
+}
+
+.styleBts {
+    font-size: 40px;
+    background-color: rgb(177, 170, 170);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.styleBts2 {
+    font-size: 40px;
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.styleBts3 {
+    font-size: 70px;
+    background-color: grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#Bts_Resultado {
+    grid-column: 1/5;
+    background-color: rgb(52, 45, 45);
+    color: white;
+    border: 4px black solid;
+    border-radius: 50px 50px 0px 0px;
+    font-size: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    align-items: center;
+    
+
+}
+
+#Bts_Igual {
+    grid-row: 4 / 7;
+    grid-column: 4;
+    border-radius: 0px 0px 50px 0px;
+    font-size: 90px;
+    background-color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Borda_redonda2 {
+    border-radius: 0px 0px 0px 50px;
+    grid-column: 1;
+    grid-row: 6;
+}
+
+button {
+    transition: 0.5s;
+    border: 2px solid black ;
+}
+
+button:hover,
+#Bts_Igual:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+.cor_Nova {
+    background-color: rgb(168, 20, 20);
+}
+.Btn-Posicao{
+    grid-row: 3;
+    grid-column: 4;
+}.n2{
+    grid-row: 3;
+    grid-column: 1;
+}
+.n1{
+    grid-row: 3;
+    grid-column: 3;
+}
+.style{
+    font-size: 40px;
+    background-color: rgb(177, 170, 170);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
